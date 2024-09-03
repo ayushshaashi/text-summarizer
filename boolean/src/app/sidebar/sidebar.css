@@ -1,0 +1,73 @@
+.retracted {
+    display: none;
+  }
+
+  .logoB {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0.2rem;
+    margin-top:0;
+  }
+
+  .output{
+    top: 5%;
+    left: 7.5%; /* Adjust as needed */
+    z-index: 6;
+    border-radius:0.5em;
+  }
+
+  .sidebar{
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  }
+
+  .notes-bar{
+    z-index: 2;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+  }  
+
+  .prompt-container{
+    position:absolute;
+    bottom:1em;
+    z-index: 11;
+    display: flex;
+    max-width: 100%;
+  }
+
+  .bgimage {
+    background-image: url("./bg.svg");
+    height: 400px;
+    width: 500px;
+    background-repeat: no-repeat;
+  }
+
+  .bgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:20vh;
+    left:40vw;
+    position: absolute;
+    z-index: 2;
+
+  }
+
+  .prompt-button{
+    right:10px;
+  }
+
+  .output{
+    max-height: 100%;
+    background-color: #7c7c7c;
+  }
+
+  .ans{
+    background-color: #7c7c7c;
+    z-index: 2;
+  }
+
+  .ques{
+    background-color: #7c7c7c;
+    z-index: 2;
+  }
